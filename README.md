@@ -15,9 +15,12 @@ This is the simple wordpress-esque way to publish your blogs. Just log in to you
 ## Features: 
  - Fastpress uses `prism.js` for syntax hightlighting (over 50 languages)
  - Font-awesome and bootstrap for easier front-end customization 
+  - This might contradict the focus on speed. Bootstrap can be neat, but maybe we should go with normalize and create our own, more semantic CSS? I mean less divs/classes and styling HTML5 elements like `<article>`.  
+  Makes customizing a lot easier instead of trying to fit everything into bootstrap IMO.
  - Disqus for commenting. (optional vanilla php comment feature)
  - Multipe user accounts for authoring blogs
  - Fetch/order blogs by unique tags, dates and authors
+  - This should be probably be the next task along with the database model.
  - *editable* blogs by visitors, edits then are sent as PR to your github account. 
  - log in with github/twitter to comment. 
  - easily embed gists and tweets into your blog post
